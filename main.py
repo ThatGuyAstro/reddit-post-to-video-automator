@@ -11,7 +11,7 @@ from gtts import gTTS
 
 TAKE = 10
 #SUBREDDITS = ["dankvideos", "funnyvideos", "futurology", "nonononoyes", "natureisfuckinglit", "instant_regret", "listentothis", "holdmyredbull", "holdmyfries", "praisethecamerman", "actuallyfunny", "facepalm", "perfecttiming", "interestingasfuck", "damnthatsinteresting"]
-SUBREDDITS = ["dankvideos", "funnyvideos", "comedycemetery", "dankmemes", "pewdiepiesubmissions", "funny", "therewasanattempt", "contagiouslaughter", "idiotsfightingthings"]
+SUBREDDITS = ["tiktokcringe", "dankvideos", "funnyvideos", "comedycemetery", "dankmemes", "pewdiepiesubmissions", "funny", "therewasanattempt", "contagiouslaughter", "idiotsfightingthings"]
 
 def insertTransition(index):
     os.system("ffmpeg -i transition.mp4 transition_{0}.mp4".format(index))
